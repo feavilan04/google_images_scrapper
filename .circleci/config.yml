@@ -12,7 +12,7 @@ jobs:
       - python/install-deps
       - python/save-cache
       - run:
-          command: python main.py dogs 50
+          command: python main.py cat 50
           name: Test
 
 workflows:
